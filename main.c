@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <windows.h>
 
-/*this  is a main function
+/*this is a main function
 这是一个main函数
 */
 void cxk()
@@ -10,7 +10,7 @@ void cxk()
     char y[] = "@&*蔡徐坤^#^打篮球很帅";
     //输出字符，\n叫做换行
     printf("%s\n",x);
-    printf("%s",y);
+    printf("%s\n",y);
 };
 
 void str()
@@ -23,16 +23,28 @@ void str()
 
 };
 
+int point()
+ {
+  printf("Fuck World!\n");
+  float z = 890.99;
+  printf("%f\n",z);
+  return 0;
+};
+
 int main()
 {
     SetConsoleOutputCP(65001);
     //send out HelloWorld
     //输出一个世界你好
-    printf("HelloWorld\n");
+    printf("Hello World\n");
+    printf("%c",'A');
+    printf("%c\n",65);
+
     int b = 69;
 
     str();
     cxk();
+    point();
     
     return 0;
 };
